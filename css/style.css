@@ -121,12 +121,6 @@ nav {
   animation-fill-mode: forwards;
 }
 
-#contactLinks:hover,
-#contactLinks:active {
-  /*color: #ff7e07;*/
-  animation-play-state: running;
-}
-
 @keyframes colors {
   100% {
     color: #ff7e07;
