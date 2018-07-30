@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Trebuchet MS, sans-serif !important;
+}
+
+#logoPortf {
+  width: 35%;
+  transition: all 0.4s;
+}
+
+nav .navbar-nav li a {
+  color: #9c27b0 !important;
+  font-size: 1.2rem;
+  display: inline-block !important;
+  padding-left: 2rem !important;
+}
+
+nav .navbar-nav li a:hover,
+nav .navbar-nav li a:active {
+  color: white !important;
+}
+
+.overlay {
+  background-color: #000000;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+#imageAbout {
+  width: 100%;
+  background: url("../images/hero.jpg");
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.display-1 {
+  line-height: 0.9 !important;
+}
+
+.heroText {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-weight: 200 !important;
+}
+
+.heroText > strong {
+  font-weight: 700 !important;
+}
+
+#textMe {
+  font-size: 2rem;
+  line-height: 1.8 !important;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+p a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: none !important;
+  color: #9c27b0;
+}
+
+nav {
+  z-index: 1000;
+}
+
+.navbar {
+  background: #000000;
+  transition: all 0.75s;
+}
+
+.logoContainer {
+  width: 185px !important;
+}
+
+.navbar-nav > li {
+  padding-left: 30px;
+}
+
+#frase {
+  padding-top: 1rem !important;
+}
+
+.textColor {
+  color: #9c27b0 !important;
+}
+
+.blackText {
+  color: #2b2c2e !important;
+}
+
+.fraseText {
+  color: #9c27b0;
+}
+
+#contactLinks {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  animation-name: colors;
+  animation-duration: 0.7s;
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+}
+
+#contactLinks:hover,
+#contactLinks:active {
+  /*color: #ff7e07;*/
+  animation-play-state: running;
+}
+
+@keyframes colors {
+  100% {
+    color: #ff7e07;
+  }
+}
+
+#hoverEffect:hover,
+#hoverEffect:active {
+  color: #ff7e07;
+  cursor: pointer;
+}
+
+small {
+  color: white;
+}
+
+.colored3 {
+  background-color: #9c27b0 !important;
+}
+
+.colored3 .container-fluid .row {
+  color: #e9e9e9;
+}
+
+.colored {
+  background-color: #000000 !important;
+}
+
+.colored .container-fluid .row {
+  color: #ffffff;
+}
+.link-li {
+  margin: 10px;
+}
+ul {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 20px;
+}
+.vAlignment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.subs {
+  font-weight: 600 !important;
+}
+
+@media only screen and (max-width: 1650px) {
+  .spill {
+    word-wrap: break-word !important;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .padding {
+    padding-top: 3.5rem;
+  }
+
+  .container-fluid .row .marginTop {
+    margin-top: 2.5rem;
+  }
+
+  nav .navbar-nav li a {
+    padding-top: 1rem !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .padding {
+    padding: 3rem;
+  }
+
+  .container-fluid .row .marginTop {
+    margin-top: 2.5rem;
+  }
+
+  nav .navbar-nav li a {
+    padding-top: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #logoPortf {
+    width: 30% !important;
+  }
+
+  #textMe {
+    font-size: 1.5rem !important;
+  }
+
+  .navbar {
+    background: #171a21 !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .padding {
+    padding: 5rem;
+  }
+
+  .container-fluid .row .marginTop {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .padding {
+    padding: 8rem;
+  }
+
+  .container-fluid .row .marginTop {
+    margin-top: 5rem;
+  }
+}
